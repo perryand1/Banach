@@ -5,6 +5,7 @@ import scala.util.parsing.combinator.syntactical._
 object Main {
 
   def main(args: Array[String]): Unit = {
+    // sample source code in DSL
     val code = "def a struct {}"    
     println(code)
     val input = new Dsl.lexical.Scanner(code)
